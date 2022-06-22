@@ -1,0 +1,261 @@
+* {
+    box-sizing: border-box;
+ }
+
+.logo {
+    margin-left: 120px;
+   }
+
+ h1 {
+ border: none;
+ height: 82px;
+ background-color: rgb(248,0,50);
+ align-items: center;
+ display: flex;
+ margin-block-start: 0.01em;
+ margin-block-end: 0.01em;
+ 
+
+
+ 
+ }
+
+ section {
+  color: rgb(102,102,102) ;
+  font-family: Arial;
+  background-color: rgb (255,255,255);
+  padding-bottom:  56px;
+  align-items: center;
+  }
+  .campoInicial {
+    text-align: left;
+    margin-left: 16px;
+    margin-right: 16px;
+    align-items: flex-start;
+    display: flex;
+    text-align: center;
+    padding-top: 56px;
+    padding-bottom: 26px;
+    -webkit-box-align: center;
+    align-items: center;
+    flex-direction: column;
+
+    
+  }
+  .vejaSeusPedidos {
+    font-size: 18px;
+    max-width: 611px;
+    margin-bottom: 0px;
+    text-transform: lowercase;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+
+  }
+  .h2Inicial {
+    font-size: 32px;
+  }
+
+  .campoObrigatorio {
+    margin-bottom: auto;
+    font-size: 14px;
+    max-width: 611px;
+    color: rgb(51,51,51);
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+   }
+   .formCompleto {
+    margin-top: 25px;
+    display: grid;
+    row-gap: 0.5rem;
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(102,102,102);
+    font-family: arial;
+    align-items: left;
+    
+
+   }
+
+   .inputNome {
+    text-align: left;
+    width: 400px;
+    height: 50px;
+    border: 0.7px solid rgb(196, 193, 193); 
+    border-radius: 8px;
+    margin: 0;
+    
+   }
+   .inputData {
+    text-align: left;
+    width: 120px;
+    height: 50px;
+    border:0.7px solid rgb(196, 193, 193); 
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    line-height: 1.15;
+    margin: 0;
+    }
+
+    .inputSublinhado,a {
+      font-size: 16px;
+      color: rgb(150, 149, 149); 
+      line-height: 24px;
+      font-family: arial;
+
+    }
+    .politicaDePrivacidade {
+      font-size: 18px;
+      color: rgb(112, 110, 110) ;
+      font-family: arial;
+      text-align: center;
+    }
+    .alinhar {
+
+      text-align: center;
+      margin-left:0%;
+      padding-left: 0%;
+      
+    }
+
+
+   .inputCpf {
+    text-align: left;
+    width: 150px;
+    height: 50px;
+    border:0.7px solid rgb(196, 193, 193); 
+    border-radius: 8px;
+    padding-top: 12px;
+    padding-right: 25px;
+    padding-bottom: 12px;
+    padding-left: 25px;
+    font-family: sans-serif;
+    line-height: 1.15;
+    margin: 0;
+   }
+   .inputNotificacao {
+    border: 0px;
+    width: 2em;
+    height: 1.5em;
+    border-style: groove;
+
+   }
+   
+  .inputButton {
+    max-width: 80vw;
+    margin: 20px 20% 16px;
+    background-color: rgb(248, 0, 50);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    border: 1px solid rgb(248, 0, 50);
+    border-radius: 3px;
+    width: 234px;
+    height: 48px;
+   }
+
+   .textoCriar {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight:bold;
+    font-family: sans-serif;
+    font-size: 120%;
+    line-height: 1.15;
+    margin: 15px 15% 20px;
+   
+   }
+  .corVermelha {
+    color: red;
+  }
+  
+  .olho {
+    cursor: pointer;
+    left: 160px;
+    position: absolute;
+    width: 20px;
+  }
+
+  .potenciadaSenha {
+    width: 0%;
+    background-color: rgb(230, 0, 20);
+    height: 4px;
+    transition: all 2s ease 0s;
+  }
+  
+  .textoGenero {
+    font-size: 18px;
+    margin-top: 25px;
+    display: grid;
+    row-gap: 0.5rem;
+    font-size: 18px;
+    width: 100%;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    color: rgb(153,153,153);
+    font-family: arial;
+    align-items: left;
+    }
+
+   
+   
+   .inputOpcao {
+    border: 0px;
+    width: 2em;
+    height: 1.5em;
+    flex-wrap: wrap;
+    cursor: pointer;
+    margin-top: 10px;
+    color: rgb(198, 195, 195); 
+    font-family:arial ;
+    stroke: rgb(248, 0, 50);
+    stroke-width: 2;
+    stroke-dasharray: 57;
+    stroke-dashoffset: 57;
+    fill: none;
+    overflow: hidden;
+    border-style: groove;
+    margin: 0;
+   }
+
+  .inputComponent {
+    cursor: pointer;
+    margin-right: 0px;
+    width: 18px;
+    height: 18px;
+    padding: 0px;
+    margin-top: 0px;
+    line-height: 1.15;
+    margin: 0;
+    
+  }
+
+
+.inputSenha {
+    text-align: left;
+    width: 300px;
+    height: 50px;
+    border: 0.7px solid rgb(196, 193, 193); 
+    border-radius: 8px;
+    margin: 0;
+}
+
+
+
+
+
+  
+
+  
